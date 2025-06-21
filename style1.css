@@ -239,7 +239,7 @@ body {
 }
 
 .book-page .page-front{
-    transform: rotateY(0deg) translateZ(1px);/*90*/
+    transform: rotateY(90deg) translateZ(1px);/*90*/
 }
 
 .book-page .page-back{
