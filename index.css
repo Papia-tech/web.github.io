@@ -10,19 +10,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-.root {/* complete */
-    --bg-color: #081b29;
-    --main-color:#cc0000;
-    --text-color: #333;
-    --second-text-color: #555;
-    --white-color: #fff;
-    --cover-color: linear-gradient(45deg, #553546, #664255);
-    --pages-color: linear-gradient(90deg, #fff, #ddd);
-    --border: .125rem solid #cc0000;
-    --box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
-}
-/* complete */
-
 body {/* complete */
     display: flex;/* complete */
     justify-content: center;/* complete */
