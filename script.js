@@ -9,12 +9,12 @@ pageTurnBtn.forEach((el, index) => {
             pageTurn.classList.remove('turn');
             setTimeout(() => {
                 pageTurn.style.zIndex = 20 - index; // Corrected 'zindex' to 'zIndex'
-            }, 500);
+            }, 500)
         } else {
             pageTurn.classList.add('turn');
             setTimeout(() => {
                 pageTurn.style.zIndex = 20 + index; // Corrected 'zindex' to 'zIndex'
-            }, 500);
+            }, 500)
         }
     }
 })
@@ -29,8 +29,8 @@ contactMeBtn.onclick = () => {
 
             setTimeout(() => {
                 page.style.zIndex = 20 + index; // Corrected 'zindex' to 'zIndex'
-            }, 500);
-        }, (index + 1) * 200 + 100);
+            }, 500)
+        }, (index + 1) * 200 + 100)
     })
 }
 
@@ -59,12 +59,12 @@ backProfileBtn.onclick = () => {
                 reverseIndex();
                 pages[pageNumber].style.zIndex = 10 + index;
             }, 500)
-        }, (index + 1) * 3200 + 100)
+        }, (index + 1) * 200 + 100)
     })
 
 }
 
-//const coverRight = document.querySelector('.cover.cover-right');
+const coverRight = document.querySelector('.cover.cover-right');
 const pageLeft = document.querySelector('.book-page.page-left');
 
 setTimeout(() => {
@@ -76,24 +76,20 @@ setTimeout(() => {
 }, 2800)
 
 setTimeout(() => {
-    pageLeft.style.zIndex = 10;//20
+    pageLeft.style.zIndex = 20;//20
 }, 3200)
 
 pages.forEach((_, index) => {
-    setTimeout(() => {
-        reverseIndex();
-        pages[pageNumber].classList.remove('turn');
-
         setTimeout(() => {
             reverseIndex();
-            pages[pageNumber].style.zIndex = 10 + index;
-        }, 500)
-    }, (index + 1) * 200 + 2100)
-})
+            pages[pageNumber].classList.remove('turn');
 
-
-
-
+            setTimeout(() => {
+                reverseIndex();
+                pages[pageNumber].style.zIndex = 10 + index;
+            }, 500)
+        }, (index + 1) * 200 + 2100)
+    })
 
 
 

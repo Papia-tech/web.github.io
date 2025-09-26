@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body> 
 
     <div class="wrapper">
         <div class="cover cover-left"></div>
-        <div class="cover cover-right"></div>
+        <div class="cover cover-right turn"></div>
 
         <div class="book">
             <!--Profile page-->
@@ -27,23 +30,23 @@
                     <h3>Hello! Welcome to my portfolio website</h3>
 
                     <div class="social-media">
-                        <a href="https://wa.me/8240758993" target="_blank"><img src="whatsapp.png" width="30px" height="30px"></a>
-                        <a href="https://m.me/YourPhoneNumber" target="_blank"><img src="facebook.png" width="30px" height="30px"></a>
-                        <a href="https://t.me/+918240758993" target="_blank"><img src="telegram.png" width="30px" height="30px" alt="Telegram"></a>
-                        <a href="sms:8240758993?body=Hello%20there!%20I'd%20like%20to%20chat." target="_blank"><img src="message.png" width="30px" height="30px"></a>
+                        <a href="https://wa.me/8240758993" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+                        <a href="https://m.me/YourPhoneNumber" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://t.me/+918240758993" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="sms:8240758993?body=Hello%20there!%20I'd%20like%20to%20chat." target="_blank"><i class="fa-notdog fa-solid fa-comment"></i></a>
                     </div>
 
                     <p>"Hello, my name is Papia Karmakar, and I am a first-year B.Tech student specializing in Computer Science and Engineering(CSE) at the University of Engineering & Management(UEM). With a keen interest in exploring the foundations of technology, I am eager to build practical skills and engage in projects that expand my knowledge in capabilities."</p>
 
                     <div class="btn-box">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#" class="btn contact-me">Contact Me</a>
+                        <a href="#" class="btn download">Download CV</a>
+                        <a href="#" class="btn contact-me"><i class="fa-solid fa-user"></i>Contact Me</a>
                     </div>
                 </div>
             </div>
 
             <!--Page 1 & 2 -->
-            <div class="book-page page-right" id="turn-1">
+            <div class="book-page page-right turn" id="turn-1">
                 <!--page 1 (Work Experience)-->
                 <div class="page-front">
                     <h2 class="title">Educational Background</h2><!--h1 was there-->
@@ -75,13 +78,13 @@
 
                     <!--next button-->
                     <span class="nextprev-btn" data-page="turn-1">
-                        <img src="https://th.bing.com/th/id/OIP.dSDbD8_LadipW_7UIUschgHaHa?w=217&h=218&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-right"></i>
                     </span>
                 </div>
 
                 <!--page 2 (Education)-->
                 <div class="page-back">
-                    <h1 class="title">Experience</h1>
+                    <h2 class="title">Experience</h2>
 
                     <div class="work-box">
                         <div class="work-content">
@@ -110,16 +113,16 @@
 
                     <!--prev button-->
                     <span class="nextprev-btn back" data-page="turn-1">
-                        <img src="https://th.bing.com/th/id/OIP.A-Ns76oqSN8E0obaaMnZewHaFC?w=284&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-left"></i>
                     </span>
                 </div>
             </div>
 
             <!--Page 1 & 2 -->
-            <div class="book-page page-right" id="turn-2">
+            <div class="book-page page-right turn" id="turn-2">
                 <!--page 3 (My Services)-->
                 <div class="page-front">
-                    <h3>My Service</h3>
+                    <h2 class="title">My Service</h2>
 
                     <div class="services-box">
                         <div class="services-content">
@@ -155,25 +158,25 @@
 
                     <!--next button-->
                     <span class="nextprev-btn" data-page="turn-2">
-                        <img src="https://th.bing.com/th/id/OIP.dSDbD8_LadipW_7UIUschgHaHa?w=217&h=218&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-right"></i>
                     </span>
                 </div>
 
                 <!--page 4 (My Skills)-->
                 <div class="page-back">
-                    <h1 class="title">MY SKILLS</h1>
+                    <h2 class="title">MY SKILLS</h2>
 
                     <div class="skills-box">
                         <div class="skills-content">
                             <h3>Skill Level</h3>
                             <div class="content">
-                                <span>HTML (60%)</span>
-                                <span>CSS (10%)</span>
-                                <span>JavaScript (1%)</span>
-                                <span>Python (30%)</span>
-                                <span>C (60%)</span>
-                                <span>C++ (10%)</span>
-                                <span>Java (5%)</span>
+                                <span class="one"><i class="fa-brands fa-html5"></i>HTML (60%)</span>
+                                <span class="two"><i class="fa-brands fa-css"></i>CSS (10%)</span>
+                                <span class="three"><i class="fa-brands fa-square-js"></i>JavaScript (1%)</span>
+                                <span class="four"><i class="fa-brands fa-python"></i>Python (30%)</span>
+                                <span class="five"><i class="fa-solid fa-c"></i>C (60%)</span>
+                                <span class="six"><i class="fa-solid fa-c"></i>C++ (10%)</span>
+                                <span class="seven"><i class="fa-brands fa-java"></i>Java (5%)</span>
                             </div>
                         </div>
                     </div>
@@ -182,21 +185,21 @@
 
                     <!--prev button-->
                     <span class="nextprev-btn back" data-page="turn-2">
-                        <img src="https://th.bing.com/th/id/OIP.A-Ns76oqSN8E0obaaMnZewHaFC?w=284&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-left"></i>
                     </span>
                 </div>
             </div>
 
             <!--Page 5 & 6 -->
-            <div class="book-page page-right" id="turn-3">
+            <div class="book-page page-right turn" id="turn-3">
                 <!--page 5 (Latest Project)-->
                 <div class="page-front">
-                    <h1 class="title">Latest Project</h1>
+                    <h2 class="title">Latest Project</h2>
 
                     <div class="portfolio-box">
-                        <div class="img-box">
-                            <a href="C:\Users\karma\OneDrive\Pictures\Saved Pictures\Mathematics2-1(182984977076374).jpg">
-                                <img src="C:\Users\karma\OneDrive\Pictures\Saved Pictures\Mathematics2-1(182984977076374).jpg" alt="">
+                        <div class="img-box project1">
+                            <a href="Project1.png">
+                                <img src="Project1.png" alt="">
                             </a>
                         </div>
                     
@@ -221,13 +224,13 @@
 
                     <!--next button-->
                     <span class="nextprev-btn" data-page="turn-3">
-                        <img src="https://th.bing.com/th/id/OIP.dSDbD8_LadipW_7UIUschgHaHa?w=217&h=218&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-right"></i>
                     </span>
                 </div>
 
                 <!--page 6 (Contact Me)-->
                 <div class="page-back">
-                    <h1 class="title">Contact Me!</h1>
+                    <h2 class="title">Contact Me!</h2>
 
                     <div class="contact-box">
                         <form action="https://api.web3forms.com/submit" method="post">
@@ -243,12 +246,12 @@
 
                     <!--prev button-->
                     <span class="nextprev-btn back" data-page="turn-3">
-                        <img src="https://th.bing.com/th/id/OIP.A-Ns76oqSN8E0obaaMnZewHaFC?w=284&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="30px" height="30px">
+                        <i class="fa-solid fa-chevron-left"></i>
                     </span>
 
                     <a href="#" class="back-profile">
                         <p>Profile</p>
-                        <img src="https://th.bing.com/th/id/OIP.ivSYjRnCiG4Be6knB3c-ZwHaHa?w=201&h=200&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" width="30px" height="30px">
+                        <i class="fa-solid fa-user"></i>
                     </a>
                 </div>
             </div>
